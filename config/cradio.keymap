@@ -1,4 +1,5 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -6,10 +7,10 @@
 
         layer_0 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&kp LALT   &kp Q     &kp UP_ARROW  &kp W      &kp TAB    &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LEFT  &kp DOWN      &kp RIGHT  &kp F      &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp A     &kp S         &kp C      &kp V      &trans  &trans  &trans  &trans  &trans
+                                   &kp X      &kp RET    &trans  &trans
             >;
         };
     };
